@@ -1,0 +1,16 @@
+C:\Users\siels\source\repos\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.exe
+C:\Users\siels\source\repos\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.deps.json
+C:\Users\siels\source\repos\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.runtimeconfig.json
+C:\Users\siels\source\repos\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.runtimeconfig.dev.json
+C:\Users\siels\source\repos\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.dll
+C:\Users\siels\source\repos\CollatzConjecture\bin\Debug\net5.0\ref\CollatzConjecture.dll
+C:\Users\siels\source\repos\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.pdb
+C:\Users\siels\source\repos\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.csproj.AssemblyReference.cache
+C:\Users\siels\source\repos\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\siels\source\repos\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.AssemblyInfoInputs.cache
+C:\Users\siels\source\repos\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.AssemblyInfo.cs
+C:\Users\siels\source\repos\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.csproj.CoreCompileInputs.cache
+C:\Users\siels\source\repos\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.dll
+C:\Users\siels\source\repos\CollatzConjecture\obj\Debug\net5.0\ref\CollatzConjecture.dll
+C:\Users\siels\source\repos\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.pdb
+C:\Users\siels\source\repos\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.genruntimeconfig.cache

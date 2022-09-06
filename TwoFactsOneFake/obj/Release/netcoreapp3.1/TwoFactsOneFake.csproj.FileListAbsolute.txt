@@ -1,0 +1,14 @@
+C:\Users\siels\source\repos\TwoFactsOneFake\bin\Release\netcoreapp3.1\TwoFactsOneFake.exe
+C:\Users\siels\source\repos\TwoFactsOneFake\bin\Release\netcoreapp3.1\TwoFactsOneFake.deps.json
+C:\Users\siels\source\repos\TwoFactsOneFake\bin\Release\netcoreapp3.1\TwoFactsOneFake.runtimeconfig.json
+C:\Users\siels\source\repos\TwoFactsOneFake\bin\Release\netcoreapp3.1\TwoFactsOneFake.runtimeconfig.dev.json
+C:\Users\siels\source\repos\TwoFactsOneFake\bin\Release\netcoreapp3.1\TwoFactsOneFake.dll
+C:\Users\siels\source\repos\TwoFactsOneFake\bin\Release\netcoreapp3.1\TwoFactsOneFake.pdb
+C:\Users\siels\source\repos\TwoFactsOneFake\obj\Release\netcoreapp3.1\TwoFactsOneFake.csproj.AssemblyReference.cache
+C:\Users\siels\source\repos\TwoFactsOneFake\obj\Release\netcoreapp3.1\TwoFactsOneFake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\siels\source\repos\TwoFactsOneFake\obj\Release\netcoreapp3.1\TwoFactsOneFake.AssemblyInfoInputs.cache
+C:\Users\siels\source\repos\TwoFactsOneFake\obj\Release\netcoreapp3.1\TwoFactsOneFake.AssemblyInfo.cs
+C:\Users\siels\source\repos\TwoFactsOneFake\obj\Release\netcoreapp3.1\TwoFactsOneFake.csproj.CoreCompileInputs.cache
+C:\Users\siels\source\repos\TwoFactsOneFake\obj\Release\netcoreapp3.1\TwoFactsOneFake.dll
+C:\Users\siels\source\repos\TwoFactsOneFake\obj\Release\netcoreapp3.1\TwoFactsOneFake.pdb
+C:\Users\siels\source\repos\TwoFactsOneFake\obj\Release\netcoreapp3.1\TwoFactsOneFake.genruntimeconfig.cache
