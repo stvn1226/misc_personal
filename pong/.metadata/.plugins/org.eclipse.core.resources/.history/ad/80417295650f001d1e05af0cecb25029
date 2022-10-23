@@ -1,0 +1,5 @@
+package GraphicsPractice;
+
+public class AIPlayer extends Player {
+	super(x, y, w, h);
+}

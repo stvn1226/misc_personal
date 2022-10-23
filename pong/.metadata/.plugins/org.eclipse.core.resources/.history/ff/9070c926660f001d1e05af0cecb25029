@@ -1,0 +1,16 @@
+package GraphicsPractice;
+
+public class AIPlayer extends Player {
+	public AIPlayer(int x, int y, int w, int h) {
+		super(x, y, w, h);
+	}
+	
+	public void update(boolean left, boolean right, Ball ball) {
+		if(Math,abs(yPos - ball.yPos) < 100) {
+			
+		}
+		else {
+			
+		}
+	}
+}

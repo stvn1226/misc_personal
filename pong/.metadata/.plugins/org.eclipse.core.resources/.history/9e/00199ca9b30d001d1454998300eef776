@@ -1,0 +1,16 @@
+package Arrays;
+
+public class Doors {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean[] doors = new boolean[100];
+		
+		for (int i = 0; i < doors.length; i++) {
+			for (int j = i; j < doors.length; j += i) {
+				doors[j] = !doors[j];
+			}
+		}
+	}
+
+}

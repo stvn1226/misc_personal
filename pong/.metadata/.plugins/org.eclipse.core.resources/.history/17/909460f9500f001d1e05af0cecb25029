@@ -1,0 +1,13 @@
+package GraphicsPractice;
+
+public class Ball {
+	public int width, height;
+	
+	public double xPos, yPos;
+	
+	private double speed, direction;
+	
+	public Ball(int x, int y, int w, int h) {
+		
+	}
+}

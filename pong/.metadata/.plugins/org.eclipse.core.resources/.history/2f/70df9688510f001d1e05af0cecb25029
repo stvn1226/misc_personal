@@ -1,0 +1,37 @@
+package GraphicsPractice;
+
+public class Ball {
+	public int width, height;
+	
+	public double xPos, yPos;
+	
+	private double speed, direction;
+	
+	public Ball(int x, int y, int w, int h) {
+		xPos = x;
+		yPos = y;
+		width = w;
+		height = h;
+		speed = 3;
+		direction = 20;
+	}
+	
+	public void render(int[] pixels) {
+		for(int y = 0; y < height; y++) {
+			int yPix = (int) (y + yPos);
+			if (yPix < 0 || yPix >= Pong.HEIGHT) {
+				continue;
+			}
+			
+			for(int x = 0; x < width; x++) {
+				int xPix = (int) (x + xPos);
+				if (xPix < 0 || xPix >= Pong.WIDTH) {
+					continue;
+				}
+				
+				pixels[xPix + yPix * Pong.WIDTH] = 0xFFFFFF;
+			}
+		}
+	}
+
+}

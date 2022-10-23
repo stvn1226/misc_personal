@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\siels\Desktop\JavaCamp Jul25\.metadata\.plugins\org.eclipse.jdt.core
+107573622.index
+2178751970.index
+1865797976.index
+3837389790.index
+3575277909.index
+1602128660.index

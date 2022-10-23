@@ -1,0 +1,19 @@
+package GraphicsPractice;
+
+import java.awt.event.KeyListener;
+
+public class Input implements KeyListener {
+	public boolean[] key = new boolean[68836];
+	
+	public void keyPressed(KeyEvent e) {
+		
+	}
+	
+	public void keyReleased(KeyEvent e) {
+		
+	}
+	
+	public void keyTyped(KeyEvent e) {
+		
+	}
+}

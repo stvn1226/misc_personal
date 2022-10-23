@@ -1,0 +1,8 @@
+package GraphicsPractice;
+
+public class Player {
+
+	public int xPos, yPos, width, height, score;
+	
+	protected int speed = 4;
+}

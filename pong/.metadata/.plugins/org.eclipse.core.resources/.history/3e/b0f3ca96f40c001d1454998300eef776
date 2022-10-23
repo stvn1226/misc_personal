@@ -1,0 +1,38 @@
+package TextAdventure;
+import java.util.Scanner;
+/**
+ * 
+ */
+
+/**
+ * @author Steven Feldman
+ *
+ */
+public class Game {
+
+	/**
+	 * @param args
+	 */
+	int choice;
+	Scanner scan;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new Game();
+	}
+	
+	public Game() {
+		scan = new Scanner(System.in);
+		
+		run();
+	}
+	
+	public void run() {
+		
+	}
+	
+	public int getInput(int numOfChoices) {
+		return -1;
+	}
+
+}

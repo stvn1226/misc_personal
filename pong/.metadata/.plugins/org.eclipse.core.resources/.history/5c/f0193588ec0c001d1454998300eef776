@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package FirstProject;
+import java.util.Scanner;
+/**
+ * @author Steven Feldman
+ *
+ */
+public class Input {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("What is your favorite number?");
+		
+		int number = scan.nextLine();
+		
+		System.out.println(number + " is a great number, if you add 5 it becomes" + (number + 5) + ".");
+	}
+
+}

@@ -1,0 +1,7 @@
+package GraphicsPractice;
+
+public class Ball {
+	public int width, height;
+	
+	public double xPos, yPos;
+}

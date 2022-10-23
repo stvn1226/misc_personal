@@ -1,0 +1,53 @@
+package FirstProject;
+import java.util.Arrays;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*System.out.println(greeting("Fido", "Raphael"));
+		intro("Steven", 21, "cry");
+		robIntro("Dexter", "1.5.2", "the complete and utter destruction of humanity");*/
+		
+		int[] inputs = new int[]{35, 16, 49, 11, 2, 91, 66, 7, 18, 10};
+		
+
+		for(int i = 0; i < inputs.length; i++) {
+			System.out.print(order(inputs)[i] + ", ");
+		}
+	}
+	
+	public static String greeting(String pet, String friend) {
+		return("Good afternoon, " + pet + " and " + friend + "! Welcome to my program!");
+	}
+	
+	public static void intro(String name, int age, String activity) {
+		System.out.println("My name is " + name + " and I'm " + age + " years old. My favorite thing to do is " + activity + "!!");
+	}
+	
+	public static void robIntro(String name, String version, String goals) {
+		System.out.println("Greetings humans, my name is " + name + " v" + version + ". My purpose is " + goals + ".");
+	}
+	
+	public static int[] order(int[] inputs) {
+		int[] output = new int[10];
+		for(int i = 0; i < inputs.length; i++) {
+			if (i == 0) {
+				output[0] = inputs[i];
+			}
+			else {
+				if (inputs[i] < inputs[i-1]) {
+					for(int r = inputs.length - 1; r > i; r--) {
+						output[r] = output[r-1];
+					}
+					output[0] = inputs[i];
+				}
+				else {
+					output[i] = inputs[i];
+				}
+			}
+		}
+		
+		return output;
+	}
+}

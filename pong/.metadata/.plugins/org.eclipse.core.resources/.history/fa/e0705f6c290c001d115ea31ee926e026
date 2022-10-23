@@ -1,0 +1,9 @@
+package FirstProject;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("I'm proud of you, son. I should have alwys believed in you and not preferred your stupid brother.");
+	}
+}

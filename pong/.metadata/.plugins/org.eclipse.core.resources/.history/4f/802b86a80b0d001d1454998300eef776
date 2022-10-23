@@ -1,0 +1,76 @@
+package TextAdventure;
+import java.util.Scanner;
+/**
+ * 
+ */
+
+/**
+ * @author Steven Feldman
+ *
+ */
+public class Game {
+
+	/**
+	 * @param args
+	 */
+	int choice;
+	Scanner scan;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new Game();
+	}
+	
+	public Game() {
+		scan = new Scanner(System.in);
+		
+		run();
+	}
+	
+	public void run() {
+		System.out.println("Hello, adventurer. You are about to begin a great quest. Be not afraid, for you are the hero.");
+		System.out.println("You enter the woods and encounter a bear. It is glowing with the color of blood.");
+		
+		System.out.println();
+		System.out.println("1. Back off slowly and try to get some distance from it.");
+		System.out.println("2. Attempt to intimidate the bear.");
+		System.out.println("3. Climb a tree to get out of reach.");
+		System.out.println("4. Poke the bear with a stick to see what happens.");
+		
+		choice = getInput(4);
+		switch(choice) {
+			case 1: System.out.println("ch1");
+					break;
+					
+			case 2: System.out.println("ch2");
+					break;
+					
+			case 3: System.out.println("ch3");
+					break;
+			
+			case 4: System.out.println("ch4");
+					break;
+		}
+	}
+	
+	public int getInput(int numOfChoices) {
+		int selection = -1;
+		
+		while(true) {
+			try {
+				selection = scan.nextInt();
+				if (selection > 0 && selection <= numOfChoices) {
+					return selection;
+				}
+				else {
+					System.out.println("Please write a number between *1 and " + numOfChoices + "*.");
+				}
+			}catch(Exception ex) {
+				System.out.println("Please write a *number* between 1 and " + numOfChoices + ".");
+				scan = new Scanner(System.in);
+			}
+		}
+				
+	}
+
+}

@@ -1,0 +1,138 @@
+package TextAdventure;
+import java.util.Scanner;
+/**
+ * 
+ */
+
+/**
+ * @author Steven Feldman
+ *
+ */
+public class Game {
+
+	/**
+	 * @param args
+	 */
+	int choice;
+	Scanner scan;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new Game();
+	}
+	
+	public Game() {
+		scan = new Scanner(System.in);
+		
+		run();
+	}
+	
+	public void run() {
+		System.out.println("Hello, adventurer. You are about to begin a great quest. Be not afraid, for you are the hero.");
+		System.out.println("You enter the woods and encounter a bear. It is glowing with the color of blood.");
+		
+		System.out.println();
+		System.out.println("1. Back off slowly and try to get some distance from it.");
+		System.out.println("2. Attempt to intimidate the bear.");
+		System.out.println("3. Climb a tree to get out of reach.");
+		System.out.println("4. Poke the bear with a stick to see what happens.");
+		
+		choice = getInput(4);
+		switch(choice) {
+			case 1: System.out.println("You find a hole.");
+			
+					System.out.println("1. Jump in.");
+					System.out.println("2. Don't");
+					
+					choice = getInput(2);
+					switch(choice) {
+						case 1: System.out.println("You jump in the hole, which turned out to be a spike trap left over from the Vietnam War.");
+								playAgain();
+								break;
+								
+						case 2: System.out.println("The bear catches up to you and eats you.");
+								playAgain();
+								break;
+								
+						default: break;
+					}
+					break;
+					
+			case 2: System.out.println("The hole intimidates you back.");
+			
+					System.out.println("1. Fight the bear.");
+					System.out.println("2. Admit defeat.");
+					
+					choice = getInput(2);
+					switch(choice) {
+						case 1: System.out.println("You confront the bear with nothing but your bare hands. The bear defeats you completely and utterly, as your life fades you think about how stupid your decision was.");
+								playAgain();
+								break;
+								
+						case 2: System.out.println("You surrender your life to the bear. The bear pulls out a battleaxe, and decapitates you humanely before feeding on your corpse.");
+								playAgain();
+								break;
+					}
+					break;
+					
+			case 3: System.out.println("As you reach the top of the tree, you come across two branches you could climb, one on your left and one on your right.");
+					
+					System.out.println("1. Grab the left branch.");
+					System.out.println("2. Grab the right branch.");
+					
+					choice = getInput(2);
+					switch(choice) {
+						case 1: System.out.println("As you put your weight on it, the branch breaks and you fall to the ground several meters below, breaking your neck.");
+								playAgain();
+								break;
+						
+						case 2: System.out.println("You climb on the branch and are safely away from the bear. The bear pulls a black headband out of its mouth, and puts it on. The bear makes a ninjitsu jump to the top of the tree and eats you in one bite.");
+								playAgain();
+								break;
+					}
+					break;
+			
+			case 4: System.out.println("ch4");
+					break;
+					
+			default: break;
+		}
+	}
+	
+	public int getInput(int numOfChoices) {
+		int selection = -1;
+		
+		while(true) {
+			try {
+				selection = scan.nextInt();
+				if (selection > 0 && selection <= numOfChoices) {
+					return selection;
+				}
+				else {
+					System.out.println("Please write a number between *1 and " + numOfChoices + "*.");
+				}
+			}catch(Exception ex) {
+				System.out.println("Please write a *number* between 1 and " + numOfChoices + ".");
+				scan = new Scanner(System.in);
+			}
+		}
+				
+	}
+	
+	public void playAgain() {
+		int choice = -1;
+		
+		System.out.println("YOU DIED!");
+		System.out.println();
+		System.out.println("Play again?");
+		System.out.println("1. Yes");
+		System.out.println("2. No");
+		
+		choice = getInput(2);
+		
+		if (choice == 1) {
+			new Game();
+		}
+	}
+
+}
