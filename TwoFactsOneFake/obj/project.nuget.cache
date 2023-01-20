@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c0MsVzKlfc78ru89nR3fOTcXctnemATg/ccDgukH+UmiZgYOR+durjGe2bL5sEYcVtQs4QbzHbQjF+Zmrw2Bzg==",
+  "dgSpecHash": "OGj7J5Ees2FIb0i3PtWuOON6e2BruhwYyYqoHcnMg65rbDkIjB0DqIi5oo37xZzO3XNZwrNoEMmI6IjMrUP5Hw==",
   "success": true,
   "projectFilePath": "C:\\Users\\siels\\Desktop\\git_repos\\misc_personal\\TwoFactsOneFake\\TwoFactsOneFake.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\siels\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512",
-    "C:\\Users\\siels\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\siels\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\siels\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

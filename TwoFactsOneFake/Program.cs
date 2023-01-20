@@ -24,10 +24,10 @@ namespace TwoFactsOneFake
             facts.Add("The arcade game \"Donkey Kong\" (1986), where the character later known as Mario made his debut, was originally meant to be a Popeye game, but Nintendo couldn't get the license.");
             facts.Add("The gene for six fingers is dominant. That means if you have a parent with six fingers on each hand and a parent with five fingers, chances are you'll have six fingers.");
             facts.Add("Bolivia has two capitals.");
-            facts.Add("If you reach 100 years old in Great Britain, the queen sends you a letter.");
+            facts.Add("If you reach 100 years old in Great Britain, the king sends you a letter.");
             facts.Add("Blue raspberries aren't real, it's an artificial flavor invented in a lab.");
             facts.Add("It rains diamonds in Uranus and Neptune.");
-            facts.Add("You can die from drinking too much water. It's called water poisoning, but it takes so much water that you'd have to be doing it deliberately.");
+            facts.Add("You can die from drinking too much water. It's called water poisoning.");
             facts.Add("It's illegal to own a pet turtle in Reykjavík.");
             facts.Add("Teeth are as unique as fingerprints.");
             facts.Add("Fish can cough.");
@@ -39,8 +39,8 @@ namespace TwoFactsOneFake
             facts.Add("The shortest war in history lasted 38 minutes.");
             facts.Add("The world’s first animated feature film was made in Argentina.");
             facts.Add("German chocolate cake was invented in Texas.");
-            facts.Add("The Philippines consists of over 7,600 islands.");
-            facts.Add("A one-way trip on the Trans-Siberian Railway involves crossing over 3,900 bridges.");
+            facts.Add("The Philippines consists of over 7,500 islands.");
+            facts.Add("A one-way trip on the Trans-Siberian Railway involves crossing about 4,000 bridges.");
             facts.Add("You can hold your breath for the rest of your life.");
             facts.Add("If your shirt isn't tucked into your pants, your pants are tucked into your shirt.");
             facts.Add("The average person spends two weeks of their life waiting at traffic lights.");
@@ -49,8 +49,7 @@ namespace TwoFactsOneFake
             facts.Add("California considers wasps to be fish.");
             facts.Add("Until 1913, parents or guardians could mail their children to another adult through the post office.");
             facts.Add("The longest English word is 189,819 letters long.");
-            facts.Add("Some octopus species lay 56,000 eggs at a time.");
-            facts.Add("The scientific name for a pig starts with SUS.");
+            facts.Add("Some octopus species lay 55,000 eggs at a time.");
             facts.Add("That tiny pocket in jeans was designed to store pocket watches.");
             facts.Add("No number before 1,000 contains the letter A when spelled out.");
             facts.Add("Movie trailers originally played after the movie.");
@@ -86,10 +85,11 @@ namespace TwoFactsOneFake
             facts.Add("\"Athena\" (1986) is the first known video game that used mythological themes.");
             facts.Add("Four pairs of states in America share part of their names.");
             facts.Add("Airplanes were invented a few days after a newspaper declared that \"man won't fly for a million years.\"");
+            facts.Add("Although there have been 46 Presidents, only 45 people have served as President. That's because one of them was elected two separate times.");
 
             fakes.Add("In Spanish-speaking countries, the card game \"Uno\" is sold as \"One.\"");
             fakes.Add("If hamsters spend more than one month alone, they'll die.");
-            fakes.Add("Checkered shirts are illegal in Armenia. You're only allowed to wear solid colors or stripes on button-downs.");
+            fakes.Add("Checkered shirts are illegal in Armenia.");
             fakes.Add("The name \"Percy\" did not exist before the Percy Jackson books. The author invented the name, and people liked it enough that they gave it to their children.");
             fakes.Add("There are no people in Antarctica.");
             fakes.Add("Arkansas doesn't actually exist, it's a made up state invented to scare children.");
@@ -98,7 +98,6 @@ namespace TwoFactsOneFake
             fakes.Add("The Great Wall of China is actually in France. Although it was started in China, the only surviving section of it is in France.");
             fakes.Add("Most elephants don't have feelings.");
             fakes.Add("Before 1657, there was no moon.");
-            fakes.Add("Babies aren't legally considered people. The government only considers you a person from when you are 4 years old, and as such, you don't have rights before then.");
             fakes.Add("If you sleep for more than 28 hours, you'll never wake up.");
             fakes.Add("Any bridge built before 1930 is illegal.");
             fakes.Add("Birthday candles are actually edible.");
@@ -116,7 +115,6 @@ namespace TwoFactsOneFake
             fakes.Add("Studies have shown that 86% of students actually like homework.");
             fakes.Add("Every time you sneeze, you lose 0.0000085% of your brain cells.");
             fakes.Add("You are more likely to die on your birthday than on any other day of the year.");
-            fakes.Add("Bears are actually not real, they were made up for stories and, later, Teddy Bears.");
             fakes.Add("The name \"Instagram\" contains every vowel.");
             fakes.Add("In outer space, blood turns blue.");
             fakes.Add("The average person runs more distance than they walk.");
@@ -128,7 +126,10 @@ namespace TwoFactsOneFake
             fakes.Add("Prisons are illegal in Switzerland. If you build one, you'll be sent to... uh... wait...");
             fakes.Add("If you get permanent marker on your skin, you can never get it off.");
             fakes.Add("In Peru, part of police training is done through Grand Theft Auto Online, to \"get in the mind of the criminal.\"");
-            fakes.Add("Beds were invented in 1712. Before that, people slept on trees.");
+            fakes.Add("Beds were invented in 1412. Before that, people slept on trees.");
+            fakes.Add("\"SpongeBob SquarePants\" is based on a true story.");
+            fakes.Add("In a rare anomaly, no babies were born on December 6th, 1919, anywhere in the world.");
+            fakes.Add("The name \"Shannon\" will be made illegal starting in 2024. Women named Shannon must change their names by January 1st.");
 
             while (playAgain == "Y")
             {
