@@ -48,7 +48,7 @@ namespace TwoFactsOneFake
             facts.Add("Japan has one vending machine for every 40 people.");
             facts.Add("California considers wasps to be fish.");
             facts.Add("Until 1913, parents or guardians could mail their children to another adult through the post office.");
-            facts.Add("The longest English word is 189,819 letters long.");
+            facts.Add("Pianos are percussion instruments, like drums.");
             facts.Add("Some octopus species lay 55,000 eggs at a time.");
             facts.Add("That tiny pocket in jeans was designed to store pocket watches.");
             facts.Add("No number before 1,000 contains the letter A when spelled out.");
@@ -83,13 +83,18 @@ namespace TwoFactsOneFake
             facts.Add("The symbol \"&\" used to be part of the English alphabet.");
             facts.Add("There is a functioning hotel made out of snow.");
             facts.Add("\"Athena\" (1986) is the first known video game that used mythological themes.");
-            facts.Add("Four pairs of states in America share part of their names.");
+            facts.Add("Squirrels can't take fall damage.");
+            facts.Add("There are more planes at the bottom of the ocean, than there are submarines in the sky.");
             facts.Add("Airplanes were invented a few days after a newspaper declared that \"man won't fly for a million years.\"");
             facts.Add("Although there have been 46 Presidents, only 45 people have served as President. That's because one of them was elected two separate times.");
 
             fakes.Add("In Spanish-speaking countries, the card game \"Uno\" is sold as \"One.\"");
+            fakes.Add("Scientists have concluded that in fact the chicken came before the egg.");
+            fakes.Add("Scientists have plans in place to replace the sun with a giant light bulb.");
+            fakes.Add("Batman was based on a real Indian vigilante who dressed in dark clothing and fought criminals at night in the 19th century.");
             fakes.Add("If hamsters spend more than one month alone, they'll die.");
             fakes.Add("Checkered shirts are illegal in Armenia.");
+            fakes.Add("There are no countries with a name that starts with \"W\"");
             fakes.Add("The name \"Percy\" did not exist before the Percy Jackson books. The author invented the name, and people liked it enough that they gave it to their children.");
             fakes.Add("There are no people in Antarctica.");
             fakes.Add("Arkansas doesn't actually exist, it's a made up state invented to scare children.");
@@ -101,7 +106,7 @@ namespace TwoFactsOneFake
             fakes.Add("If you sleep for more than 28 hours, you'll never wake up.");
             fakes.Add("Any bridge built before 1930 is illegal.");
             fakes.Add("Birthday candles are actually edible.");
-            fakes.Add("85% of Christmas gifts are returned.");
+            fakes.Add("76% of Christmas gifts are returned.");
             fakes.Add("Your fingernails grow faster when you're dead.");
             fakes.Add("Atlanta spelled backwards is still Atlanta.");
             fakes.Add("All mushrooms come from Brazil.");
